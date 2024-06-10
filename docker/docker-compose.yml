@@ -1,6 +1,6 @@
 services:
   app:
-    image: 'ticket-ordering-service'
+    image: 'ticket-ordering-service-image'
     container_name: kpo-ticket-ordering-service
     expose:
       - '8081'
